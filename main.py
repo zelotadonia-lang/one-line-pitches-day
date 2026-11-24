@@ -1,9 +1,9 @@
 #!/usr/bin/env python3
 """Write the one-line pitch to /output/entry.txt.
 
-The pitch asks a friend to say their idea out loud once, then watch
-make.fun build their first app from it — the only step is speaking,
-not learning to code.
+The pitch gives a friend one same-day scene: tell make.fun the idea
+over lunch, tap the first version on their phone before dinner —
+the only step is one sentence, not learning to code.
 
 Deterministic: the same bytes on every run, no randomness, no I/O
 besides the single output file.
@@ -12,8 +12,8 @@ besides the single output file.
 import os
 
 PITCH = (
-    "Say your idea out loud once and make.fun builds your first app "
-    "while you watch it take shape."
+    "Tell make.fun your app idea over lunch and tap the first version "
+    "of it on your phone before dinner."
 )
 
 
